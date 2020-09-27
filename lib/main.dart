@@ -13,6 +13,9 @@ class _StartupNamerState extends State<StartupNamer> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup Name Generator',
+      theme: ThemeData(
+        primaryColor: Colors.green,
+      ),
       home: RandomWords(),
     );
   }
